@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const COMMISSIONS_OPEN = false; // <-- toggle this to true/false
+const COMMISSIONS_OPEN = true; // <-- toggle this to true/false
 
 export default function HomePage() {
   return (
