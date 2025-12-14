@@ -277,7 +277,7 @@ export default function HomePage() {
                   <li>Snuff or extreme gore</li>
                   <li>Body-function focused content / gross-out themes</li>
                   <li>Extreme obesity / hyper-size fetishes</li>
-                  <li>Vore or digestion (CV is fine)</li>
+                  <li>Vore or digestion</li>
                   <li>Inanimate transformation (regular TF is fine)</li>
                   <li>
                     Pain-focused or hardcore BDSM (soft/light themes are okay)
