@@ -147,7 +147,7 @@ export default function HomePage() {
                       2D Simple Loop Animation
                     </h3>
                     <p className="font-semibold text-sky-300">
-                      Starts at $300 per character
+                      $400 base + $300 per additional character
                     </p>
                   </div>
                   <div className="mt-3 grid gap-3 sm:grid-cols-3">
