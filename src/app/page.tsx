@@ -4,11 +4,11 @@ const COMMISSIONS_OPEN = true; // <-- toggle this to true/false
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 flex items-center justify-center px-4 py-10">
+    <main className="min-h-screen bg-slate-950 text-slate-100 flex items-center justify-center px-4 py-6 sm:py-10">
       <div className="w-full max-w-3xl">
         <div className="bg-slate-900/80 border border-slate-700/70 rounded-3xl shadow-2xl shadow-black/40 overflow-hidden">
           {/* Top banner */}
-          <div className="w-full">
+          <div className="hidden sm:block w-full">
             <img
               src="/banner.png"
               alt="Dew banner"
@@ -17,13 +17,13 @@ export default function HomePage() {
           </div>
 
           {/* Card content */}
-          <div className="p-6 sm:p-8 space-y-8">
+          <div className="p-5 sm:p-8 space-y-6 sm:space-y-8">
             {/* Header / Hero */}
-            <header className="flex flex-col items-center text-center gap-4 -mt-12">
+            <header className="flex flex-col items-center text-center gap-4 sm:-mt-12">
               <img
                 src="/profile.png"
                 alt="Dew profile picture"
-                className="h-24 w-24 rounded-full object-cover border-4 border-slate-900 shadow-lg"
+                className="h-20 w-20 sm:h-24 sm:w-24 rounded-full object-cover border-4 border-slate-900 shadow-lg"
               />
               <div className="space-y-1">
                 <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">
@@ -215,51 +215,15 @@ export default function HomePage() {
               >
                 Links & contact
               </h2>
-              <div className="space-y-3">
+              <div className="flex flex-col gap-3">
                 <Link
                   href="#info"
-                  className="block w-full rounded-full border border-sky-500/80 bg-sky-500/10 px-4 py-2.5 text-sm font-medium text-center hover:bg-sky-500/20 hover:border-sky-400 transition"
+                  className="order-1 block w-full rounded-full border border-sky-500/80 bg-sky-500/10 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:bg-sky-500/20 hover:border-sky-400 transition"
                 >
                   Commission Info &amp; ToS
                 </Link>
 
-                <Link
-                  href="https://www.furaffinity.net/user/dewclawpaw"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
-                >
-                  Fur Affinity
-                </Link>
-
-                <Link
-                  href="https://x.com/DewAnimation"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
-                >
-                  Twitter / X
-                </Link>
-
-                <Link
-                  href="https://bsky.app/profile/dewram.bsky.social"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
-                >
-                  Bluesky
-                </Link>
-
-                <Link
-                  href="https://discord.gg/uVnMmk3wSs"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
-                >
-                  Discord Server
-                </Link>
-
-                <div className="rounded-2xl border border-slate-800 bg-slate-900/60 px-4 py-3 text-xs text-slate-200">
+                <div className="order-2 sm:order-last rounded-2xl border border-slate-800 bg-slate-900/60 px-4 py-3 text-xs text-slate-200">
                   <p className="font-semibold text-slate-100 mb-1">
                     Direct contact
                   </p>
@@ -275,6 +239,51 @@ export default function HomePage() {
                     invoicing when you reach out.
                   </p>
                 </div>
+
+                <Link
+                  href="https://www.furaffinity.net/user/dewclawpaw"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="order-3 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                >
+                  Gallery on Fur Affinity
+                </Link>
+
+                <Link
+                  href="https://dew-devlog.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="order-4 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                >
+                  Dev Blog
+                </Link>
+
+                <Link
+                  href="https://x.com/DewAnimation"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="order-5 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                >
+                  Twitter / X
+                </Link>
+
+                <Link
+                  href="https://bsky.app/profile/dewram.bsky.social"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="order-6 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                >
+                  Bluesky
+                </Link>
+
+                <Link
+                  href="https://discord.gg/uVnMmk3wSs"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="order-7 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                >
+                  Join Discord Server
+                </Link>
               </div>
             </section>
 
