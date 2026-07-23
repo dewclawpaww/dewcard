@@ -189,7 +189,7 @@ export default function HomePage() {
                       Basic Blender Character Rig
                     </h3>
                     <p className="font-semibold text-amber-200">
-                      Starting at $500
+                      Starting at $400
                     </p>
                   </div>
                   <div className="mt-3 grid gap-3 sm:grid-cols-3">
@@ -230,7 +230,7 @@ export default function HomePage() {
                       Advanced Blender Character Rig
                     </h3>
                     <p className="font-semibold text-amber-200">
-                      Starting at $750
+                      Starting at $600
                     </p>
                   </div>
                   <div className="mt-3 grid gap-3 sm:grid-cols-3">
@@ -269,7 +269,7 @@ export default function HomePage() {
                       Full Alternate / Transformation State
                     </h3>
                     <p className="font-semibold text-amber-200">
-                      Starting at +$500 per state
+                      Starting at +$300 per state
                     </p>
                   </div>
                   <p className="mt-2 text-slate-200">
