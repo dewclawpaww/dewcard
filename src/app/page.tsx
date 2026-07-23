@@ -33,7 +33,7 @@ export default function HomePage() {
                   <span className="font-medium text-slate-100">
                     dewclawpaw
                   </span>{" "}
-                  · furry artist · 2D art / 2D animation
+                  · furry artist · 2D art / 2D animation / 3D rigging
                 </p>
               </div>
               <div className="flex flex-wrap items-center justify-center gap-3">
@@ -186,24 +186,109 @@ export default function HomePage() {
                 <div className="rounded-2xl border border-amber-400/50 bg-amber-500/10 px-4 py-4 text-sm">
                   <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
                     <h3 className="text-base font-semibold text-amber-200">
-                      3D Commissions
+                      Basic Blender Character Rig
                     </h3>
                     <p className="font-semibold text-amber-200">
-                      Currently paused
+                      Starting at $500
+                    </p>
+                  </div>
+                  <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                    <div>
+                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                        Body
+                      </p>
+                      <p className="mt-1 text-slate-200">
+                        A complete body rig with animator friendly controls,
+                        skinning, weight painting, and basic deformation testing.
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                        Basic face
+                      </p>
+                      <p className="mt-1 text-slate-200">
+                        Eye aiming, eye blinking, and jaw open and close. No full
+                        facial rig, custom expressions, or custom face states.
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                        Basic anatomy
+                      </p>
+                      <p className="mt-1 text-slate-200">
+                        Basic penis controls or a generic vaginal open and close
+                        control where applicable. No additional custom shapes or
+                        states.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="rounded-2xl border border-amber-400/50 bg-amber-500/10 px-4 py-4 text-sm">
+                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                    <h3 className="text-base font-semibold text-amber-200">
+                      Advanced Blender Character Rig
+                    </h3>
+                    <p className="font-semibold text-amber-200">
+                      Starting at $750
+                    </p>
+                  </div>
+                  <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                    <div>
+                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                        Includes
+                      </p>
+                      <p className="mt-1 text-slate-200">
+                        Everything included in the Basic Blender Character Rig.
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                        Full face
+                      </p>
+                      <p className="mt-1 text-slate-200">
+                        A full facial rig for more detailed posing, expressions,
+                        mouth movement, eyelids, brows, and character performance.
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                        Correctives
+                      </p>
+                      <p className="mt-1 text-slate-200">
+                        Basic corrective shapes for common deformation problems
+                        found during normal posing and testing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="rounded-2xl border border-amber-400/50 bg-amber-500/10 px-4 py-4 text-sm">
+                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                    <h3 className="text-base font-semibold text-amber-200">
+                      Full Alternate / Transformation State
+                    </h3>
+                    <p className="font-semibold text-amber-200">
+                      Starting at +$500 per state
                     </p>
                   </div>
                   <p className="mt-2 text-slate-200">
-                    I&apos;m not taking new 3D animation or 3D commission work
-                    at this time while I focus on 2D art and 2D animation. This
-                    may reopen later with updated pricing and requirements.
+                    Major alternate forms that require substantial additional
+                    rigging are treated as another full rig state. This includes
+                    gender swap forms, major body or anatomy changes, creature
+                    transformations, and similar alternate forms.
+                  </p>
+                  <p className="mt-2 text-slate-300">
+                    Additional genital states, clothing alternates, specialized
+                    anatomy, and other custom features are quoted separately.
                   </p>
                 </div>
               </div>
 
               <p className="text-[11px] text-slate-400">
                 Exact totals may vary with complexity, extra characters, props,
-                backgrounds, or specific animation needs. Large or complex
-                projects can be quoted individually.
+                backgrounds, rig requirements, or specific animation needs. Large
+                or complex projects can be quoted individually.
               </p>
             </section>
 
@@ -324,10 +409,37 @@ export default function HomePage() {
                 </ul>
               </div>
 
+              {/* 3D model requirements */}
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/40 p-4 space-y-2 text-sm">
+                <h3 className="font-semibold text-slate-100">
+                  3D model requirements
+                </h3>
+                <p className="text-slate-200">
+                  Before rigging begins, I will inspect the model to make sure it
+                  is suitable for rigging. I check the mesh, intended symmetry,
+                  UVs, object organization, and any obvious problems that could
+                  prevent the character from deforming correctly.
+                </p>
+                <ul className="list-disc space-y-1 pl-5 text-slate-200">
+                  <li>
+                    Minor problems that are quick and safe to address are included
+                    in the rig price.
+                  </li>
+                  <li>
+                    Major mesh, topology, UV, or symmetry problems cannot be
+                    repaired as part of the commission and may need to be sent
+                    back to the original modeler.
+                  </li>
+                  <li>
+                    I do not provide general model repair or remodeling services.
+                  </li>
+                </ul>
+              </div>
+
               {/* Content restrictions */}
               <div className="rounded-2xl border border-slate-800 bg-slate-950/40 p-4 space-y-2 text-sm">
                 <h3 className="font-semibold text-slate-100">
-                  Content I will not draw or animate
+                  Content I will not accept
                 </h3>
                 <p className="text-slate-200">
                   I reserve the right to refuse any commission I&apos;m not
@@ -377,6 +489,11 @@ export default function HomePage() {
                     render.
                   </li>
                   <li>
+                    <span className="font-semibold">3D rigging:</span> model
+                    inspection to rig setup to skinning / weight painting to
+                    deformation testing and final cleanup.
+                  </li>
+                  <li>
                     Small changes and tweaks are{" "}
                     <span className="font-medium">free</span> during rough /
                     sketch stages.
@@ -413,6 +530,10 @@ export default function HomePage() {
                   <li>
                     2D simple loops are usually completed in around 2 weeks.
                     Larger or more complex loops may take up to 3 weeks.
+                  </li>
+                  <li>
+                    3D rig turnaround depends on the model and requested features.
+                    The expected schedule will be discussed before work begins.
                   </li>
                   <li>
                     For animation, I take{" "}
@@ -456,7 +577,7 @@ export default function HomePage() {
                     No refunds after final delivery.
                   </li>
                   <li>
-                    Once you buy artwork or animation from me,{" "}
+                    Once you buy artwork, animation, or a rig from me,{" "}
                     <span className="font-medium">
                       you can use it however you want
                     </span>
