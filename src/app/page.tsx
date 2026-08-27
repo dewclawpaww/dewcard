@@ -4,7 +4,7 @@ const COMMISSIONS_OPEN = true; // <-- toggle this to true/false
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 flex items-center justify-center px-4 py-6 sm:py-10">
+    <main className="min-h-screen text-slate-100 flex items-center justify-center px-4 py-6 sm:py-10">
       <div className="w-full max-w-3xl">
         <div className="bg-slate-900/80 border border-slate-700/70 rounded-3xl shadow-2xl shadow-black/40 overflow-hidden">
           {/* Top banner */}
@@ -30,10 +30,7 @@ export default function HomePage() {
                   DEW
                 </h1>
                 <p className="text-sm sm:text-base text-slate-300">
-                  <span className="font-medium text-slate-100">
-                    dewclawpaw
-                  </span>{" "}
-                  · furry artist · 2D art / 2D animation / 3D rigging
+                  I am a NSFW artist who Animates, creates Rigs for Maya, Blender and VRChat.
                 </p>
               </div>
               <div className="flex flex-wrap items-center justify-center gap-3">
@@ -52,246 +49,6 @@ export default function HomePage() {
               </div>
             </header>
 
-            {/* Commission types */}
-            <section aria-labelledby="commission-types" className="space-y-3">
-              <h2
-                id="commission-types"
-                className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400"
-              >
-                Commission types
-              </h2>
-
-              <div className="grid gap-3">
-                <div className="rounded-2xl border border-slate-700/80 bg-slate-900/80 px-4 py-4 text-sm">
-                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                    <h3 className="text-base font-semibold text-slate-100">
-                      2D Sketch
-                    </h3>
-                    <p className="font-semibold text-sky-300">
-                      $70 per character
-                    </p>
-                  </div>
-                  <div className="mt-3 grid gap-3 sm:grid-cols-3">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Turnaround
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Rough sketches usually take around 4 hours. Clean
-                        sketches usually take around 6 to 8 hours.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Includes
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        I normally provide clean sketches. Rough sketches are
-                        only provided when a very quick turnaround is needed.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Revisions
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Tweaks are okay during the rough stage.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-slate-700/80 bg-slate-900/80 px-4 py-4 text-sm">
-                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                    <h3 className="text-base font-semibold text-slate-100">
-                      2D Flat Color
-                    </h3>
-                    <p className="font-semibold text-sky-300">
-                      $110 per character
-                    </p>
-                  </div>
-                  <div className="mt-3 grid gap-3 sm:grid-cols-3">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Turnaround
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Usually completed within 2 to 3 days depending on
-                        complexity.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Includes
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        A cleaned sketch with flat colors over top. Flats are
-                        not done over rough sketches.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Revisions
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Small color or detail tweaks are okay before final
-                        delivery.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-slate-700/80 bg-slate-900/80 px-4 py-4 text-sm">
-                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                    <h3 className="text-base font-semibold text-slate-100">
-                      2D Simple Loop Animation
-                    </h3>
-                    <p className="font-semibold text-sky-300">
-                      $400 base + $300 per additional character
-                    </p>
-                  </div>
-                  <div className="mt-3 grid gap-3 sm:grid-cols-3">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Turnaround
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Usually around 2 weeks. Larger or more complex loops may
-                        take up to 3 weeks.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Includes
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Simple character motion loops, idle loops, or sex loops.
-                        Loops can be up to 11 seconds and can be repeated as
-                        many times as needed.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                        Extras
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        I can edit the final loop and provide sound effects when
-                        needed. Major action or pose changes after animation
-                        starts may cost extra.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-amber-400/50 bg-amber-500/10 px-4 py-4 text-sm">
-                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                    <h3 className="text-base font-semibold text-amber-200">
-                      Basic Blender Character Rig
-                    </h3>
-                    <p className="font-semibold text-amber-200">
-                      Starting at $400
-                    </p>
-                  </div>
-                  <div className="mt-3 grid gap-3 sm:grid-cols-3">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
-                        Body
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        A complete body rig with animator friendly controls,
-                        skinning, weight painting, and basic deformation testing.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
-                        Basic face
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Eye aiming, eye blinking, and jaw open and close. No full
-                        facial rig, custom expressions, or custom face states.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
-                        Basic anatomy
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Basic penis controls or a generic vaginal open and close
-                        control where applicable. No additional custom shapes or
-                        states.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-amber-400/50 bg-amber-500/10 px-4 py-4 text-sm">
-                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                    <h3 className="text-base font-semibold text-amber-200">
-                      Advanced Blender Character Rig
-                    </h3>
-                    <p className="font-semibold text-amber-200">
-                      Starting at $600
-                    </p>
-                  </div>
-                  <div className="mt-3 grid gap-3 sm:grid-cols-3">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
-                        Includes
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Everything included in the Basic Blender Character Rig.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
-                        Full face
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        A full facial rig for more detailed posing, expressions,
-                        mouth movement, eyelids, brows, and character performance.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
-                        Correctives
-                      </p>
-                      <p className="mt-1 text-slate-200">
-                        Basic corrective shapes for common deformation problems
-                        found during normal posing and testing.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-amber-400/50 bg-amber-500/10 px-4 py-4 text-sm">
-                  <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-                    <h3 className="text-base font-semibold text-amber-200">
-                      Full Alternate / Transformation State
-                    </h3>
-                    <p className="font-semibold text-amber-200">
-                      Starting at +$300 per state
-                    </p>
-                  </div>
-                  <p className="mt-2 text-slate-200">
-                    Major alternate forms that require substantial additional
-                    rigging are treated as another full rig state. This includes
-                    gender swap forms, major body or anatomy changes, creature
-                    transformations, and similar alternate forms.
-                  </p>
-                  <p className="mt-2 text-slate-300">
-                    Additional genital states, clothing alternates, specialized
-                    anatomy, and other custom features are quoted separately.
-                  </p>
-                </div>
-              </div>
-
-              <p className="text-[11px] text-slate-400">
-                Exact totals may vary with complexity, extra characters, props,
-                backgrounds, rig requirements, or specific animation needs. Large
-                or complex projects can be quoted individually.
-              </p>
-            </section>
-
             {/* Links / buttons */}
             <section aria-labelledby="links" className="space-y-3">
               <h2
@@ -301,12 +58,12 @@ export default function HomePage() {
                 Links & contact
               </h2>
               <div className="flex flex-col gap-3">
-                <Link
+                <a
                   href="#info"
-                  className="order-1 block w-full rounded-full border border-sky-500/80 bg-sky-500/10 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:bg-sky-500/20 hover:border-sky-400 transition"
+                  className="order-1 block w-full rounded-full border border-yellow-400 bg-yellow-700 px-4 py-3 sm:py-2.5 text-sm font-medium text-center text-yellow-50 hover:bg-yellow-600 hover:border-yellow-300 transition"
                 >
                   Commission Info &amp; ToS
-                </Link>
+                </a>
 
                 <div className="order-2 sm:order-last rounded-2xl border border-slate-800 bg-slate-900/60 px-4 py-3 text-xs text-slate-200">
                   <p className="font-semibold text-slate-100 mb-1">
@@ -329,7 +86,7 @@ export default function HomePage() {
                   href="https://www.furaffinity.net/user/dewclawpaw"
                   target="_blank"
                   rel="noreferrer"
-                  className="order-3 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                  className="order-3 block w-full rounded-full border border-cyan-400 bg-cyan-800 px-4 py-3 sm:py-2.5 text-sm font-medium text-center text-cyan-50 hover:bg-cyan-700 hover:border-cyan-300 transition"
                 >
                   Gallery on Fur Affinity
                 </Link>
@@ -338,7 +95,7 @@ export default function HomePage() {
                   href="https://dew-devlog.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="order-4 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                  className="order-4 block w-full rounded-full border border-fuchsia-400 bg-fuchsia-800 px-4 py-3 sm:py-2.5 text-sm font-medium text-center text-fuchsia-50 hover:bg-fuchsia-700 hover:border-fuchsia-300 transition"
                 >
                   Dev Blog
                 </Link>
@@ -347,7 +104,7 @@ export default function HomePage() {
                   href="https://x.com/DewAnimation"
                   target="_blank"
                   rel="noreferrer"
-                  className="order-5 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                  className="order-5 block w-full rounded-full border border-orange-400 bg-orange-800 px-4 py-3 sm:py-2.5 text-sm font-medium text-center text-orange-50 hover:bg-orange-700 hover:border-orange-300 transition"
                 >
                   Twitter / X
                 </Link>
@@ -356,7 +113,7 @@ export default function HomePage() {
                   href="https://bsky.app/profile/dewram.bsky.social"
                   target="_blank"
                   rel="noreferrer"
-                  className="order-6 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                  className="order-6 block w-full rounded-full border border-blue-400 bg-blue-800 px-4 py-3 sm:py-2.5 text-sm font-medium text-center text-blue-50 hover:bg-blue-700 hover:border-blue-300 transition"
                 >
                   Bluesky
                 </Link>
@@ -365,18 +122,335 @@ export default function HomePage() {
                   href="https://discord.gg/uVnMmk3wSs"
                   target="_blank"
                   rel="noreferrer"
-                  className="order-7 block w-full rounded-full border border-slate-700 bg-slate-900/80 px-4 py-3 sm:py-2.5 text-sm font-medium text-center hover:border-sky-400 hover:bg-slate-800 transition"
+                  className="order-7 block w-full rounded-full border border-violet-400 bg-violet-800 px-4 py-3 sm:py-2.5 text-sm font-medium text-center text-violet-50 hover:bg-violet-700 hover:border-violet-300 transition"
                 >
                   Join Discord Server
                 </Link>
               </div>
             </section>
 
+            {/* Commission sections */}
+            <section className="space-y-8">
+              {/* 3D Rigging */}
+              <section aria-labelledby="rigging" className="space-y-3">
+                <h2
+                  id="rigging"
+                  className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400"
+                >
+                  3D Rigging
+                </h2>
+
+                <div className="grid gap-3">
+                  <div className="rounded-2xl border border-amber-400/50 bg-amber-500/10 px-4 py-4 text-sm">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                      <h3 className="text-base font-semibold text-amber-200">
+                        Full Blender Character Rig
+                      </h3>
+                      <p className="font-semibold text-amber-200">
+                        Starting at $300
+                      </p>
+                    </div>
+                    <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                          Body
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          A complete body rig with animator friendly controls,
+                          skinning, weight painting, and deformation testing.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                          Face
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          A full facial rig with eye aiming, blinking, jaw, mouth,
+                          eyelids, brows, and expressions.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-amber-200/80">
+                          Extras
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Wings and other additional rig features are quoted
+                          separately depending on complexity.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-2xl border border-amber-400/50 bg-amber-500/10 px-4 py-4 text-sm">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                      <h3 className="text-base font-semibold text-amber-200">
+                        Full Alternate / Transformation State
+                      </h3>
+                      <p className="font-semibold text-amber-200">
+                        Starting at +$300 per state
+                      </p>
+                    </div>
+                    <p className="mt-2 text-slate-200">
+                      Major alternate forms that require substantial additional
+                      rigging are treated as another full rig state. This includes
+                      gender swap forms, major body or anatomy changes, creature
+                      transformations, and similar alternate forms.
+                    </p>
+                    <p className="mt-2 text-slate-300">
+                      Additional genital states, clothing alternates, specialized
+                      anatomy, and other custom features are quoted separately.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              {/* VRChat */}
+              <section aria-labelledby="vrchat" className="space-y-3">
+                <h2
+                  id="vrchat"
+                  className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400"
+                >
+                  VRChat
+                </h2>
+
+                <div className="grid gap-3">
+                  <div className="rounded-2xl border border-violet-400/50 bg-violet-500/10 px-4 py-4 text-sm">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                      <h3 className="text-base font-semibold text-violet-200">
+                        VRChat Avatar Rig and Setup
+                      </h3>
+                      <p className="font-semibold text-violet-200">
+                        Starting at $500
+                      </p>
+                    </div>
+                    <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-violet-200/80">
+                          Rig
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Full humanoid body rig, skinning, face rig, visemes,
+                          eye tracking, blinking, and PhysBones where needed.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-violet-200/80">
+                          Setup
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Unity and VRChat setup, basic expressions, basic clothing
+                          or body toggles, and testing in VRChat.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-violet-200/80">
+                          Extras
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Complex clothing systems, multiple outfits, alternate
+                          body states, NSFW systems, wings, Quest optimization,
+                          model repair, and other custom features are quoted separately.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* Animation */}
+              <section aria-labelledby="animation" className="space-y-3">
+                <h2
+                  id="animation"
+                  className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400"
+                >
+                  Animation
+                </h2>
+
+                <div className="grid gap-3">
+                  <div className="rounded-2xl border border-slate-700/80 bg-slate-900/80 px-4 py-4 text-sm">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                      <h3 className="text-base font-semibold text-slate-100">
+                        3D Animation
+                      </h3>
+                      <p className="font-semibold text-sky-300">
+                        Simple loops from $50 · Non looped full animation from $100
+                      </p>
+                    </div>
+                    <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Simple Loops
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Simple 3D loops are usually $50 to $75 depending on
+                          complexity and the number of characters.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Full Animation
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Non loop based animation starts at $100. As a reference,
+                          a one minute transformation animation was $500 total.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Large Projects
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Large animations require half payment up front.
+                          Thumbnails and storyboarding are included in the price.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-2xl border border-slate-700/80 bg-slate-900/80 px-4 py-4 text-sm">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                      <h3 className="text-base font-semibold text-slate-100">
+                        2D Animation
+                      </h3>
+                      <p className="font-semibold text-sky-300">
+                        Simple loops from $300 · Additional characters $250 each
+                      </p>
+                    </div>
+                    <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Turnaround
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Usually around 2 weeks. Larger or more complex loops may
+                          take up to 3 weeks.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Includes
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Simple loops start at $300 for one character. Additional
+                          characters are $250 each.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Extras
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Non looped finishes, including orgasm alternatives at the end,
+                          are an additional $100 or more depending on complexity.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* Illustration */}
+              <section aria-labelledby="illustration" className="space-y-3">
+                <h2
+                  id="illustration"
+                  className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400"
+                >
+                  Illustration
+                </h2>
+
+                <div className="grid gap-3">
+                  <div className="rounded-2xl border border-slate-700/60 bg-slate-900/50 px-4 py-4 text-sm opacity-60">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                      <h3 className="text-base font-semibold text-slate-100">
+                        2D Sketch
+                      </h3>
+                      <span className="inline-flex items-center rounded-full border border-slate-600 bg-slate-800/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate-300">
+                        Currently Not Accepting
+                      </span>
+                    </div>
+                    <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Turnaround
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Rough sketches usually take around 4 hours. Clean
+                          sketches usually take around 6 to 8 hours.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Includes
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          I provide clean sketch png file and optionally the psd file
+                          when asked.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Revisions
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Tweaks are okay during the rough stage.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-2xl border border-slate-700/60 bg-slate-900/50 px-4 py-4 text-sm opacity-60">
+                    <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                      <h3 className="text-base font-semibold text-slate-100">
+                        2D Flat Color
+                      </h3>
+                      <span className="inline-flex items-center rounded-full border border-slate-600 bg-slate-800/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-slate-300">
+                        Currently Not Accepting
+                      </span>
+                    </div>
+                    <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Turnaround
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Completed within 1 to 2 days max, depending on complexity.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Includes
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          A cleaned sketch with flat colors over top. PSD is provided
+                          if requested.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                          Revisions
+                        </p>
+                        <p className="mt-1 text-slate-200">
+                          Small color or detail tweaks are okay before final
+                          delivery.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <p className="text-[11px] text-slate-400">
+                Exact totals may vary with complexity, extra characters, props,
+                backgrounds, rig requirements, or specific animation needs. Large
+                or complex projects can be quoted individually.
+              </p>
+            </section>
+
             {/* Info / ToS */}
             <section
               id="info"
               aria-labelledby="info-heading"
-              className="space-y-6 border-t border-slate-800 pt-6"
+              className="scroll-mt-6 space-y-6 border-t border-slate-800 pt-6"
             >
               <h2
                 id="info-heading"
@@ -436,6 +510,26 @@ export default function HomePage() {
                 </ul>
               </div>
 
+              {/* VRChat upload and account access */}
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/40 p-4 space-y-2 text-sm">
+                <h3 className="font-semibold text-slate-100">
+                  VRChat upload and account access
+                </h3>
+                <p className="text-slate-200">
+                  For final VRChat delivery, you can upload the avatar yourself
+                  through VCC, or I can handle the upload for you.
+                </p>
+                <p className="text-slate-200">
+                  If you want me to upload it, I will need temporary access to
+                  your VRChat account. Please change your password to a temporary
+                  password before giving me access. Once the avatar has been
+                  uploaded and tested, change your password again immediately.
+                </p>
+                <p className="text-slate-200">
+                  I do not need or want your normal account password.
+                </p>
+              </div>
+
               {/* Content restrictions */}
               <div className="rounded-2xl border border-slate-800 bg-slate-950/40 p-4 space-y-2 text-sm">
                 <h3 className="font-semibold text-slate-100">
@@ -453,19 +547,19 @@ export default function HomePage() {
                     exceptions.
                   </li>
                   <li>Snuff or extreme gore</li>
-                  <li>Body-function focused content / gross-out themes</li>
+                  <li>Body function focused content / gross out themes</li>
                   <li>
-                    Extreme obesity / immobility-focused content. Some
+                    Extreme obesity / immobility focused content. Some
                     hyper/exaggerated proportions may be okay depending on the
                     idea. Ask first.
                   </li>
                   <li>Vore or digestion</li>
                   <li>Inanimate transformation. Regular TF is fine.</li>
                   <li>
-                    Pain-focused or hardcore BDSM. Soft or light themes are
+                    Pain focused or hardcore BDSM. Soft or light themes are
                     okay.
                   </li>
-                  <li>Non-consensual themes</li>
+                  <li>Nonconsensual themes</li>
                   <li>Findom or cuckoldry</li>
                 </ul>
               </div>
@@ -499,7 +593,7 @@ export default function HomePage() {
                     sketch stages.
                   </li>
                   <li>
-                    Major changes that require redrawing or re-animating are{" "}
+                    Major changes that require redrawing or reanimating are{" "}
                     <span className="font-medium">
                       billed as an additional sketch / animation
                     </span>
@@ -561,7 +655,7 @@ export default function HomePage() {
                     . I&apos;ll invoice you via the email you provide.
                   </li>
                   <li>
-                    For larger / time-intensive projects, we may do a{" "}
+                    For larger / time intensive projects, we may do a{" "}
                     <span className="font-medium">50/50 split</span>. Half
                     before starting, half on completion.
                   </li>
@@ -573,7 +667,7 @@ export default function HomePage() {
                   </li>
                   <li>
                     Full refunds are available if no work has started. Once
-                    I&apos;ve begun, refunds are case-by-case based on progress.
+                    I&apos;ve begun, refunds are handled case by case based on progress.
                     No refunds after final delivery.
                   </li>
                   <li>

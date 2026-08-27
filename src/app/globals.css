@@ -11,4 +11,10 @@ body {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
     "Segoe UI", sans-serif;
+
+  background-color: rgb(2 6 23);
+  background-image:
+    linear-gradient(rgba(71, 85, 105, 0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(71, 85, 105, 0.16) 1px, transparent 1px);
+  background-size: 16px 16px;
 }

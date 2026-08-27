@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dew — Commissions",
+  title: "Dew Commission Site",
   description: "Furry artist · 2D and 3D animation commissions",
 };
 
