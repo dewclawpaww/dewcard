@@ -460,34 +460,19 @@ export default function HomePage() {
               </h2>
 
               {/* AI usage addendum */}
-              <div className="rounded-2xl border-2 border-rose-400 bg-rose-500/15 p-4 space-y-3 text-sm shadow-lg shadow-rose-950/30 ring-1 ring-amber-300/40">
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-300">
-                    Important
-                  </p>
-                  <h3 className="mt-1 text-lg font-bold text-rose-200">
-                    AI Usage Addendum
-                  </h3>
-                </div>
-                <p className="text-slate-100">
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/40 p-4 space-y-2 text-sm">
+                <h3 className="font-semibold text-slate-100">
+                  AI Usage Addendum
+                </h3>
+                <p className="text-slate-200">
                   To anyone concerned about AI, or considering using my work with AI:
                 </p>
-                <ol className="list-decimal space-y-2 pl-5 text-slate-100">
-                  <li>
-                    I do not use, utilize, or maintain any AI in my artwork. Ever.
-                  </li>
-                  <li>
-                    I cannot control what other people do with the work I give them.
-                  </li>
-                  <li>
-                    If you use my work or Oddmore&apos;s work with AI, you will be
-                    permanently banned from commissioning me.
-                  </li>
-                  <li>
-                    In order to prevent the prevalence of slop art, I will not allow
-                    appeals to this ban.
-                  </li>
-                </ol>
+                <p className="text-slate-200">
+                  I do not use, utilize, or maintain any AI in my artwork. Ever.
+                </p>
+                <p className="text-slate-200">
+                  I cannot control what other people do with the work I give them.
+                </p>
               </div>
 
               {/* Requirements */}
